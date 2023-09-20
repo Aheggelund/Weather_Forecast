@@ -2,7 +2,7 @@
 Predicting weather using yr.no's API.
 
 The API references can be found here: https://frost.met.no/api.html
-## Retrieving data
+## Setting up
 
 * In order to start using the API you have to create a free user at https://frost.met.no/auth/requestCredentials.html
 Follow the instructions and recieve a client id
