@@ -9,7 +9,7 @@ Follow the instructions and recieve a client id
 
 * Clone this repo and create a new conda environment using the included .yaml file:
 
-  '''conda create env -f <env-file.yaml>'''
+  ```conda create env -f <env-file.yaml>```
 
 * Export the client_id as an environment variable:
 
