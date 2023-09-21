@@ -7,7 +7,9 @@ The API references can be found here: https://frost.met.no/api.html
 * In order to start using the API you have to create a free user at https://frost.met.no/auth/requestCredentials.html
 Follow the instructions and recieve a client id
 
-* Clone this repo and create a new conda environment using the included .yaml file.
+* Clone this repo and create a new conda environment using the included .yaml file:
+
+  ```conda create env -f <env-file.yaml>```
 
 * Export the client_id as an environment variable:
 
