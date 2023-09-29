@@ -1,5 +1,6 @@
 # Weather Forecast
-Predicting weather using yr.no's API.
+Predicting weather.
+Get data using yr.no's API.
 
 The API references can be found here: https://frost.met.no/api.html
 ## Setting up
