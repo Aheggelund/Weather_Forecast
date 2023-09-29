@@ -18,7 +18,15 @@ Follow the instructions and recieve a client id
 * Deactivate and reactivate the conda env and you're good to go!
 
 
-## Schedule runs
+## Scheduled runs
 
-* In order to schedule scripts to run at set times, one can use either cron jobs on linux systems or task scheduler on windows (very simple).
-* create a new task and set it up to point at 1. the python.exe being used (type where python to get all locations in venvs as well). and 2. full path to the script that is going to be scheduled.
+Because it is difficult to fetch historical radar image data from yr.no, we can schedule the get_data.py script to fetch data every hour (smallest temporal increment for images).
+1. run task scheduler on windows (easiest option)
+
+2. create new task, specify how often it should run.
+3. 
+4. Specify full path to python executable (find the paths by typing in "where python" in the terminal shell)
+
+5. In the "Add arguments (optional)" field, sepcify the full path to the script file. 
+
+6. Click done, it will run as often as specified in the setup!  
