@@ -18,3 +18,7 @@ Follow the instructions and recieve a client id
 * Deactivate and reactivate the conda env and you're good to go!
 
 
+## Schedule runs
+
+* In order to schedule scripts to run at set times, one can use either cron jobs on linux systems or task scheduler on windows (very simple).
+* create a new task and set it up to point at 1. the python.exe being used (type where python to get all locations in venvs as well). and 2. full path to the script that is going to be scheduled.
