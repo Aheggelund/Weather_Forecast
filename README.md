@@ -21,12 +21,13 @@ Follow the instructions and recieve a client id
 ## Scheduled runs
 
 Because it is difficult to fetch historical radar image data from yr.no, we can schedule the get_data.py script to fetch data every hour (smallest temporal increment for images).
+
 1. run task scheduler on windows (easiest option)
 
 2. create new task, specify how often it should run.
-3. 
-4. Specify full path to python executable (find the paths by typing in "where python" in the terminal shell)
 
-5. In the "Add arguments (optional)" field, sepcify the full path to the script file. 
+3. Specify full path to python executable (find the paths by typing in "where python" in the terminal shell)
 
-6. Click done, it will run as often as specified in the setup!  
+4. In the "Add arguments (optional)" field, sepcify the full path to the script file. 
+
+5. Click done, it will run as often as specified in the setup!  
