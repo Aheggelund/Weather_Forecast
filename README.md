@@ -21,7 +21,7 @@ Follow the instructions and recieve a client id
 
 ## Scheduled runs
 
-Because it is difficult to fetch historical radar image data from yr.no, we can schedule the get_data.py script to fetch data every hour (smallest temporal increment for images).
+Because it is difficult to fetch historical radar image data from yr.no, we can schedule a script to fetch data every hour (smallest temporal increment for images).
 
 1. run task scheduler on windows (easiest option)
 
